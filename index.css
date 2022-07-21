@@ -1,0 +1,56 @@
+.land-title {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.map-title {
+    font-size: 35px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.map-img {
+}
+
+.plot-container {
+    margin-left: 65%;
+    margin-top: -3%;
+    font-size: 35px;
+}
+
+.plot-details {
+    margin-left: 60%;
+    margin-top: 15%;
+    font-size: 20px;
+}
+
+.plotID {
+    margin: 15px;
+    background-color: gray;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.plot-coordinates {
+    margin: 15px;
+    background-color: aqua;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.location-coordinates {
+    margin: 15px;
+    background-color: aqua;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
