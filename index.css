@@ -8,32 +8,29 @@
 .map-container {
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 .map-title {
     font-size: 35px;
-    margin-left: 20%;
-    margin-top: 5%;
-}
-
-.map-img {
+    margin-left: 23%;
+    margin-top: 4%;
 }
 
 .plot-container {
     margin-left: 65%;
-    margin-top: -3%;
+    margin-top: 2%;
     font-size: 35px;
 }
 
 .plot-details {
     margin-left: 60%;
-    margin-top: 15%;
+    margin-top: 15.5%;
     font-size: 20px;
 }
 
 .plotID {
     margin: 15px;
-    background-color: gray;
     width: auto;
     display: flex;
     flex-direction: row;
@@ -41,7 +38,6 @@
 
 .plot-coordinates {
     margin: 15px;
-    background-color: aqua;
     width: auto;
     display: flex;
     flex-direction: row;
@@ -49,8 +45,30 @@
 
 .location-coordinates {
     margin: 15px;
-    background-color: aqua;
     width: auto;
     display: flex;
     flex-direction: row;
+    border: none;
+}
+
+.plotID-title {
+    font-size: 23px;
+}
+
+.land-details-input {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+
+.buy-button {
+    width: 60%;
+    height: 40px;
+    font-size: 25px;
+}
+
+.canvas-style {
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 50px;
 }

@@ -11,25 +11,35 @@
         <div class="land-title">ScekaLand</div>
         <div class="map-container">
             <div class="map-title">Map</div>
-            <div class="map-img"></div>
+            <canvas class="canvas-style" id="mainCanvas"></canvas>
         </div>
         <div class="plot-container">
             <div class="current-plot-title">Current Plot</div>
-            <div class="current-plot-img"></div>
+            <canvas id="mainCanvas"></canvas>
         </div>
         <div class="plot-details">
             <div class="plotID">
-                <div>Plot ID:</div>
-                <div>Numbers</div>
+                <div class="plotID-title">Plot ID:</div>
+                <input class="land-details-input" placeholder="Plot ID" />
             </div>
             <div class="plot-coordinates">
-                <div>Plot coordinates</div>
-                <div>Numbers</div>
+                <div class="plot-coordinates-title">Plot coordinates:</div>
+                <input
+                    class="land-details-input"
+                    placeholder="Plot coordinates"
+                />
             </div>
             <div class="location-coordinates">
-                <div>Location coordinates</div>
-                <div>Numbers</div>
+                <div class="location-coordinates-title">
+                    Location coordinates:
+                </div>
+                <input
+                    class="land-details-input"
+                    placeholder="Location coordinates"
+                />
             </div>
+            <button class="buy-button">Buy: 1.2 ETH</button>
         </div>
+        <script src="./logic.js"></script>
     </body>
 </html>
